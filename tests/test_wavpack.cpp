@@ -36,7 +36,7 @@
 using namespace std;
 using namespace TagLib;
 
-class TestWavPack : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestWavPack)
 {
   CPPUNIT_TEST_SUITE(TestWavPack);
   CPPUNIT_TEST(testNoLengthProperties);

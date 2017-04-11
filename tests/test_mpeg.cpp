@@ -40,7 +40,7 @@
 using namespace std;
 using namespace TagLib;
 
-class TestMPEG : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestMPEG)
 {
   CPPUNIT_TEST_SUITE(TestMPEG);
   CPPUNIT_TEST(testAudioPropertiesXingHeaderCBR);

@@ -29,7 +29,7 @@
 using namespace std;
 using namespace TagLib;
 
-class TestByteVectorStream : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestByteVectorStream)
 {
   CPPUNIT_TEST_SUITE(TestByteVectorStream);
   CPPUNIT_TEST(testInitialData);

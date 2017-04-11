@@ -51,7 +51,7 @@ static const String commentAfter(
   "This line is ok.\n"
   "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
 
-class TestMod : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestMod)
 {
   CPPUNIT_TEST_SUITE(TestMod);
   CPPUNIT_TEST(testReadTags);

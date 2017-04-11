@@ -38,7 +38,7 @@
 using namespace std;
 using namespace TagLib;
 
-class TestOGG : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestOGG)
 {
   CPPUNIT_TEST_SUITE(TestOGG);
   CPPUNIT_TEST(testSimple);

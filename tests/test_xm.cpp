@@ -1,4 +1,4 @@
-/***************************************************************************
+﻿/***************************************************************************
     copyright           : (C) 2011 by Mathias Panzenböck
     email               : grosser.meister.morti@gmx.net
  ***************************************************************************/
@@ -103,7 +103,7 @@ static const String commentAfter(
   "also abused as\n"
   "comments.\n");
 
-class TestXM : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestXM)
 {
   CPPUNIT_TEST_SUITE(TestXM);
   CPPUNIT_TEST(testReadTags);

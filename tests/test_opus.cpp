@@ -35,7 +35,7 @@
 using namespace std;
 using namespace TagLib;
 
-class TestOpus : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestOpus)
 {
   CPPUNIT_TEST_SUITE(TestOpus);
   CPPUNIT_TEST(testAudioProperties);

@@ -58,7 +58,7 @@ namespace
   };
 }
 
-class TestFileRef : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestFileRef)
 {
   CPPUNIT_TEST_SUITE(TestFileRef);
   CPPUNIT_TEST(testASF);

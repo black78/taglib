@@ -1,4 +1,4 @@
-/***************************************************************************
+﻿/***************************************************************************
     copyright           : (C) 2009 by Lukas Lalinsky
     email               : lukas@oxygene.sk
  ***************************************************************************/
@@ -34,7 +34,7 @@
 using namespace std;
 using namespace TagLib;
 
-class TestAIFF : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestAIFF)
 {
   CPPUNIT_TEST_SUITE(TestAIFF);
   CPPUNIT_TEST(testAiffProperties);

@@ -37,7 +37,7 @@
 using namespace std;
 using namespace TagLib;
 
-class TestOggFLAC : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestOggFLAC)
 {
   CPPUNIT_TEST_SUITE(TestOggFLAC);
   CPPUNIT_TEST(testFramingBit);

@@ -55,7 +55,7 @@ static const String commentAfter(
   "as multiline comments.\n"
   "---------------------------");
 
-class TestS3M : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestS3M)
 {
   CPPUNIT_TEST_SUITE(TestS3M);
   CPPUNIT_TEST(testReadTags);

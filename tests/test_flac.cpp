@@ -39,7 +39,7 @@
 using namespace std;
 using namespace TagLib;
 
-class TestFLAC : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestFLAC)
 {
   CPPUNIT_TEST_SUITE(TestFLAC);
   CPPUNIT_TEST(testSignature);

@@ -35,7 +35,7 @@
 using namespace std;
 using namespace TagLib;
 
-class TestXiphComment : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestXiphComment)
 {
   CPPUNIT_TEST_SUITE(TestXiphComment);
   CPPUNIT_TEST(testYear);

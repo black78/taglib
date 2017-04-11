@@ -39,7 +39,7 @@ public:
   void truncate(long length) { File::truncate(length); }
 };
 
-class TestFile : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestFile)
 {
   CPPUNIT_TEST_SUITE(TestFile);
   CPPUNIT_TEST(testFindInSmallFile);

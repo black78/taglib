@@ -35,7 +35,7 @@
 using namespace std;
 using namespace TagLib;
 
-class TestFLACUnknownMetadataBlock : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestFLACUnknownMetadataBlock)
 {
   CPPUNIT_TEST_SUITE(TestFLACUnknownMetadataBlock);
   CPPUNIT_TEST(testAccessors);

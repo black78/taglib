@@ -37,7 +37,7 @@
 using namespace std;
 using namespace TagLib;
 
-class TestMPC : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestMPC)
 {
   CPPUNIT_TEST_SUITE(TestMPC);
   CPPUNIT_TEST(testPropertiesSV8);

@@ -30,7 +30,7 @@
 using namespace std;
 using namespace TagLib;
 
-class TestMap : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestMap)
 {
   CPPUNIT_TEST_SUITE(TestMap);
   CPPUNIT_TEST(testInsert);

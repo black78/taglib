@@ -1,4 +1,4 @@
-/***************************************************************************
+﻿/***************************************************************************
     copyright           : (C) 2010 by Lukas Lalinsky
     email               : lukas@oxygene.sk
  ***************************************************************************/
@@ -37,7 +37,7 @@
 using namespace std;
 using namespace TagLib;
 
-class TestAPE : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestAPE)
 {
   CPPUNIT_TEST_SUITE(TestAPE);
   CPPUNIT_TEST(testProperties399);

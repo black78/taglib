@@ -36,7 +36,7 @@
 using namespace std;
 using namespace TagLib;
 
-class TestFLACPicture : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestFLACPicture)
 {
   CPPUNIT_TEST_SUITE(TestFLACPicture);
   CPPUNIT_TEST(testParse);

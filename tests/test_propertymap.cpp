@@ -31,7 +31,7 @@
 
 using namespace TagLib;
 
-class TestPropertyMap : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestPropertyMap)
 {
   CPPUNIT_TEST_SUITE(TestPropertyMap);
   CPPUNIT_TEST(testInvalidKeys);

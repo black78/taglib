@@ -32,7 +32,7 @@
 using namespace std;
 using namespace TagLib;
 
-class TestByteVector : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestByteVector)
 {
   CPPUNIT_TEST_SUITE(TestByteVector);
   CPPUNIT_TEST(testByteVector);

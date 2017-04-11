@@ -67,7 +67,7 @@ static const String commentAfter(
   "This is because it is saved in the 'message' proportion of\n"
   "IT files.");
 
-class TestIT : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestIT)
 {
   CPPUNIT_TEST_SUITE(TestIT);
   CPPUNIT_TEST(testReadTags);

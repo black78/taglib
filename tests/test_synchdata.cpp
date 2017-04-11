@@ -30,7 +30,7 @@
 using namespace std;
 using namespace TagLib;
 
-class TestID3v2SynchData : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestID3v2SynchData)
 {
   CPPUNIT_TEST_SUITE(TestID3v2SynchData);
   CPPUNIT_TEST(test1);

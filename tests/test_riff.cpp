@@ -58,7 +58,7 @@ public:
   void removeChunk(const ByteVector &name) { RIFF::File::removeChunk(name); }
 };
 
-class TestRIFF : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestRIFF)
 {
   CPPUNIT_TEST_SUITE(TestRIFF);
   CPPUNIT_TEST(testPadding);

@@ -35,7 +35,7 @@
 using namespace std;
 using namespace TagLib;
 
-class TestID3v1 : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestID3v1)
 {
   CPPUNIT_TEST_SUITE(TestID3v1);
   CPPUNIT_TEST(testStripWhiteSpace);

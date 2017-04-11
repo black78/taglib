@@ -35,7 +35,7 @@
 using namespace std;
 using namespace TagLib;
 
-class TestTrueAudio : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestTrueAudio)
 {
   CPPUNIT_TEST_SUITE(TestTrueAudio);
   CPPUNIT_TEST(testReadPropertiesWithoutID3v2);

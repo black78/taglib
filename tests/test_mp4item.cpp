@@ -34,7 +34,7 @@
 using namespace std;
 using namespace TagLib;
 
-class TestMP4Item : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestMP4Item)
 {
   CPPUNIT_TEST_SUITE(TestMP4Item);
   CPPUNIT_TEST(testCoverArtList);

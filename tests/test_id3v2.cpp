@@ -63,7 +63,7 @@ class PublicFrame : public ID3v2::Frame
     virtual ByteVector renderFields() const { return ByteVector(); }
 };
 
-class TestID3v2 : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestID3v2)
 {
   CPPUNIT_TEST_SUITE(TestID3v2);
   CPPUNIT_TEST(testUnsynchDecode);

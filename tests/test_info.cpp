@@ -32,7 +32,7 @@
 using namespace std;
 using namespace TagLib;
 
-class TestInfoTag : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestInfoTag)
 {
   CPPUNIT_TEST_SUITE(TestInfoTag);
   CPPUNIT_TEST(testTitle);

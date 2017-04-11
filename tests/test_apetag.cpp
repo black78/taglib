@@ -37,7 +37,7 @@
 using namespace std;
 using namespace TagLib;
 
-class TestAPETag : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestAPETag)
 {
   CPPUNIT_TEST_SUITE(TestAPETag);
   CPPUNIT_TEST(testIsEmpty);

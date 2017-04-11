@@ -30,7 +30,7 @@
 using namespace std;
 using namespace TagLib;
 
-class TestByteVectorList : public CppUnit::TestFixture
+CPPUNIT_TEST_CLASS(TestByteVectorList)
 {
   CPPUNIT_TEST_SUITE(TestByteVectorList);
   CPPUNIT_TEST(testSplitSingleChar);
