@@ -40,6 +40,7 @@ CMakeFiles/
 
 /_build
 /_output
+/packages
 
 taglib.xcodeproj
 CMakeScripts

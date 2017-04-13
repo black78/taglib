@@ -1,0 +1,696 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ape">
+      <UniqueIdentifier>{4605a338-e94d-4fc5-8c0f-cf034e81cccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asf">
+      <UniqueIdentifier>{20a3c0a5-8c52-40c8-8f08-71c3fa53ef34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flac">
+      <UniqueIdentifier>{ff4e6bad-58ae-40e0-8c88-a0e96066fb1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="it">
+      <UniqueIdentifier>{5487c1ae-3f83-4a2a-82ff-1cd732b38460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod">
+      <UniqueIdentifier>{b3c17fcd-9311-469e-bce9-b81183839773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mp4">
+      <UniqueIdentifier>{31cd9953-d1c1-4309-a60f-767006506e27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mpc">
+      <UniqueIdentifier>{5a4a2af9-6acf-406e-83ae-26809e414057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mpeg">
+      <UniqueIdentifier>{2cd37621-e093-4bf8-a74a-5d7cbf1a509d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mpeg\id3v1">
+      <UniqueIdentifier>{bcbafe98-60dd-4363-9ee1-31ab7f916946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mpeg\id3v2">
+      <UniqueIdentifier>{31ced602-dd9e-4851-a053-cb601c2a2d7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mpeg\id3v2\frames">
+      <UniqueIdentifier>{7a8cf12e-f9db-43c4-abeb-75e1b8ec9381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ogg">
+      <UniqueIdentifier>{7a2b569a-83fa-47f1-9384-ba3cf993fee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ogg\flac">
+      <UniqueIdentifier>{d050f0f7-b3c5-4989-afcf-572a85512266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ogg\opus">
+      <UniqueIdentifier>{1753d4e7-4461-4992-ac4c-f601fc32ae35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ogg\speex">
+      <UniqueIdentifier>{68e00e4b-f69c-4012-9db3-38f260b7eb48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ogg\vorbis">
+      <UniqueIdentifier>{a4ddcc56-4f2e-4ec9-bbf2-aa86a60345aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="riff">
+      <UniqueIdentifier>{c110372d-c2a7-44b6-9cb9-bbe5610430c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="riff\aiff">
+      <UniqueIdentifier>{a30f9090-d114-409e-8043-249b0b9f6dd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="riff\wav">
+      <UniqueIdentifier>{169b6b56-b1d7-4c3a-8890-3d6b175f148d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="s3m">
+      <UniqueIdentifier>{bd72e27a-e5de-428c-8f9e-86a25569cc73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="toolkit">
+      <UniqueIdentifier>{5df09ee8-db00-4767-9151-832c2e39087f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trueaudio">
+      <UniqueIdentifier>{f5b0b947-1d84-427e-a3b0-544d50f3848f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wavpack">
+      <UniqueIdentifier>{3aa04ddc-e272-42d8-a819-b9a976bc27c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xm">
+      <UniqueIdentifier>{68380d1d-7f79-46cc-a797-ee60521bc478}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\ape\apetag.cpp">
+      <Filter>ape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\ape\apefooter.cpp">
+      <Filter>ape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\ape\apeitem.cpp">
+      <Filter>ape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\ape\apefile.cpp">
+      <Filter>ape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\ape\apeproperties.cpp">
+      <Filter>ape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\asf\asftag.cpp">
+      <Filter>asf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\asf\asffile.cpp">
+      <Filter>asf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\asf\asfproperties.cpp">
+      <Filter>asf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\asf\asfattribute.cpp">
+      <Filter>asf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\asf\asfpicture.cpp">
+      <Filter>asf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\flac\flacfile.cpp">
+      <Filter>flac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\flac\flacpicture.cpp">
+      <Filter>flac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\flac\flacproperties.cpp">
+      <Filter>flac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\flac\flacmetadatablock.cpp">
+      <Filter>flac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\flac\flacunknownmetadatablock.cpp">
+      <Filter>flac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\it\itfile.cpp">
+      <Filter>it</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\it\itproperties.cpp">
+      <Filter>it</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mod\modfilebase.cpp">
+      <Filter>mod</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mod\modfile.cpp">
+      <Filter>mod</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mod\modtag.cpp">
+      <Filter>mod</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mod\modproperties.cpp">
+      <Filter>mod</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mp4\mp4file.cpp">
+      <Filter>mp4</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mp4\mp4atom.cpp">
+      <Filter>mp4</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mp4\mp4tag.cpp">
+      <Filter>mp4</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mp4\mp4item.cpp">
+      <Filter>mp4</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mp4\mp4properties.cpp">
+      <Filter>mp4</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mp4\mp4coverart.cpp">
+      <Filter>mp4</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpc\mpcfile.cpp">
+      <Filter>mpc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpc\mpcproperties.cpp">
+      <Filter>mpc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\mpegfile.cpp">
+      <Filter>mpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\mpegproperties.cpp">
+      <Filter>mpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\mpegheader.cpp">
+      <Filter>mpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\xingheader.cpp">
+      <Filter>mpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v1\id3v1tag.cpp">
+      <Filter>mpeg\id3v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v1\id3v1genres.cpp">
+      <Filter>mpeg\id3v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\id3v2framefactory.cpp">
+      <Filter>mpeg\id3v2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\id3v2synchdata.cpp">
+      <Filter>mpeg\id3v2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\id3v2tag.cpp">
+      <Filter>mpeg\id3v2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\id3v2header.cpp">
+      <Filter>mpeg\id3v2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\id3v2frame.cpp">
+      <Filter>mpeg\id3v2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\id3v2footer.cpp">
+      <Filter>mpeg\id3v2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\id3v2extendedheader.cpp">
+      <Filter>mpeg\id3v2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\attachedpictureframe.cpp">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\commentsframe.cpp">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\eventtimingcodesframe.cpp">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\generalencapsulatedobjectframe.cpp">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\ownershipframe.cpp">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\popularimeterframe.cpp">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\privateframe.cpp">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\relativevolumeframe.cpp">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\synchronizedlyricsframe.cpp">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\textidentificationframe.cpp">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\uniquefileidentifierframe.cpp">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\unknownframe.cpp">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\unsynchronizedlyricsframe.cpp">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\urllinkframe.cpp">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\chapterframe.cpp">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\tableofcontentsframe.cpp">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\podcastframe.cpp">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\ogg\oggfile.cpp">
+      <Filter>ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\ogg\oggpage.cpp">
+      <Filter>ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\ogg\oggpageheader.cpp">
+      <Filter>ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\ogg\xiphcomment.cpp">
+      <Filter>ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\ogg\flac\oggflacfile.cpp">
+      <Filter>ogg\flac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\ogg\opus\opusfile.cpp">
+      <Filter>ogg\opus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\ogg\opus\opusproperties.cpp">
+      <Filter>ogg\opus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\ogg\speex\speexfile.cpp">
+      <Filter>ogg\speex</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\ogg\speex\speexproperties.cpp">
+      <Filter>ogg\speex</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\ogg\vorbis\vorbisfile.cpp">
+      <Filter>ogg\vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\ogg\vorbis\vorbisproperties.cpp">
+      <Filter>ogg\vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\riff\rifffile.cpp">
+      <Filter>riff</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\riff\aiff\aifffile.cpp">
+      <Filter>riff\aiff</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\riff\aiff\aiffproperties.cpp">
+      <Filter>riff\aiff</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\riff\wav\wavfile.cpp">
+      <Filter>riff\wav</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\riff\wav\wavproperties.cpp">
+      <Filter>riff\wav</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\riff\wav\infotag.cpp">
+      <Filter>riff\wav</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\s3m\s3mfile.cpp">
+      <Filter>s3m</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\s3m\s3mproperties.cpp">
+      <Filter>s3m</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\toolkit\tstring.cpp">
+      <Filter>toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\toolkit\tstringlist.cpp">
+      <Filter>toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\toolkit\tbytevector.cpp">
+      <Filter>toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\toolkit\tbytevectorlist.cpp">
+      <Filter>toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\toolkit\tbytevectorstream.cpp">
+      <Filter>toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\toolkit\tiostream.cpp">
+      <Filter>toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\toolkit\tfile.cpp">
+      <Filter>toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\toolkit\tfilestream.cpp">
+      <Filter>toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\toolkit\tdebug.cpp">
+      <Filter>toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\toolkit\tpropertymap.cpp">
+      <Filter>toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\toolkit\trefcounter.cpp">
+      <Filter>toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\toolkit\tdebuglistener.cpp">
+      <Filter>toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\toolkit\tzlib.cpp">
+      <Filter>toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\trueaudio\trueaudiofile.cpp">
+      <Filter>trueaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\trueaudio\trueaudioproperties.cpp">
+      <Filter>trueaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\wavpack\wavpackfile.cpp">
+      <Filter>wavpack</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\wavpack\wavpackproperties.cpp">
+      <Filter>wavpack</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\xm\xmfile.cpp">
+      <Filter>xm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\taglib\xm\xmproperties.cpp">
+      <Filter>xm</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)taglib\audioproperties.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)taglib\fileref.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)taglib\tag.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)taglib\tagunion.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)taglib\tagutils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\ape\apefile.h">
+      <Filter>ape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\ape\apeproperties.h">
+      <Filter>ape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\ape\apetag.h">
+      <Filter>ape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\ape\apefooter.h">
+      <Filter>ape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\ape\apeitem.h">
+      <Filter>ape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\asf\asffile.h">
+      <Filter>asf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\asf\asfproperties.h">
+      <Filter>asf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\asf\asftag.h">
+      <Filter>asf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\asf\asfattribute.h">
+      <Filter>asf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\asf\asfpicture.h">
+      <Filter>asf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\flac\flacfile.h">
+      <Filter>flac</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\flac\flacpicture.h">
+      <Filter>flac</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\flac\flacproperties.h">
+      <Filter>flac</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\flac\flacmetadatablock.h">
+      <Filter>flac</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\it\itfile.h">
+      <Filter>it</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\it\itproperties.h">
+      <Filter>it</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mod\modfilebase.h">
+      <Filter>mod</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mod\modfile.h">
+      <Filter>mod</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mod\modtag.h">
+      <Filter>mod</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mod\modproperties.h">
+      <Filter>mod</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mp4\mp4file.h">
+      <Filter>mp4</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mp4\mp4atom.h">
+      <Filter>mp4</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mp4\mp4tag.h">
+      <Filter>mp4</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mp4\mp4item.h">
+      <Filter>mp4</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mp4\mp4properties.h">
+      <Filter>mp4</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mp4\mp4coverart.h">
+      <Filter>mp4</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpc\mpcfile.h">
+      <Filter>mpc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpc\mpcproperties.h">
+      <Filter>mpc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\mpegfile.h">
+      <Filter>mpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\mpegproperties.h">
+      <Filter>mpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\mpegheader.h">
+      <Filter>mpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\xingheader.h">
+      <Filter>mpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v1\id3v1tag.h">
+      <Filter>mpeg\id3v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v1\id3v1genres.h">
+      <Filter>mpeg\id3v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\id3v2extendedheader.h">
+      <Filter>mpeg\id3v2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\id3v2frame.h">
+      <Filter>mpeg\id3v2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\id3v2header.h">
+      <Filter>mpeg\id3v2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\id3v2synchdata.h">
+      <Filter>mpeg\id3v2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\id3v2footer.h">
+      <Filter>mpeg\id3v2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\id3v2framefactory.h">
+      <Filter>mpeg\id3v2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\id3v2tag.h">
+      <Filter>mpeg\id3v2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\attachedpictureframe.h">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\commentsframe.h">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\eventtimingcodesframe.h">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\generalencapsulatedobjectframe.h">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\ownershipframe.h">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\popularimeterframe.h">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\privateframe.h">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\relativevolumeframe.h">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\synchronizedlyricsframe.h">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\textidentificationframe.h">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\uniquefileidentifierframe.h">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\unknownframe.h">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\unsynchronizedlyricsframe.h">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\urllinkframe.h">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\chapterframe.h">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\tableofcontentsframe.h">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\mpeg\id3v2\frames\podcastframe.h">
+      <Filter>mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\ogg\oggfile.h">
+      <Filter>ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\ogg\oggpage.h">
+      <Filter>ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\ogg\oggpageheader.h">
+      <Filter>ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\ogg\xiphcomment.h">
+      <Filter>ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\ogg\flac\oggflacfile.h">
+      <Filter>ogg\flac</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\ogg\opus\opusfile.h">
+      <Filter>ogg\opus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\ogg\opus\opusproperties.h">
+      <Filter>ogg\opus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\ogg\speex\speexfile.h">
+      <Filter>ogg\speex</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\ogg\speex\speexproperties.h">
+      <Filter>ogg\speex</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\ogg\vorbis\vorbisfile.h">
+      <Filter>ogg\vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\ogg\vorbis\vorbisproperties.h">
+      <Filter>ogg\vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\riff\riffutils.h">
+      <Filter>riff</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\riff\rifffile.h">
+      <Filter>riff</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\riff\aiff\aifffile.h">
+      <Filter>riff\aiff</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\riff\aiff\aiffproperties.h">
+      <Filter>riff\aiff</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\riff\wav\wavfile.h">
+      <Filter>riff\wav</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\riff\wav\wavproperties.h">
+      <Filter>riff\wav</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\riff\wav\infotag.h">
+      <Filter>riff\wav</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\s3m\s3mfile.h">
+      <Filter>s3m</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\s3m\s3mproperties.h">
+      <Filter>s3m</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\toolkit\taglib.h">
+      <Filter>toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\toolkit\tstring.h">
+      <Filter>toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\toolkit\tlist.h">
+      <Filter>toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\toolkit\tstringlist.h">
+      <Filter>toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\toolkit\tbytevector.h">
+      <Filter>toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\toolkit\tbytevectorlist.h">
+      <Filter>toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\toolkit\tbytevectorstream.h">
+      <Filter>toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\toolkit\tiostream.h">
+      <Filter>toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\toolkit\tfile.h">
+      <Filter>toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\toolkit\tfilestream.h">
+      <Filter>toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\toolkit\tmap.h">
+      <Filter>toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\toolkit\tpropertymap.h">
+      <Filter>toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\toolkit\trefcounter.h">
+      <Filter>toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\toolkit\tdebuglistener.h">
+      <Filter>toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\toolkit\tutils.h">
+      <Filter>toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\trueaudio\trueaudiofile.h">
+      <Filter>trueaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\trueaudio\trueaudioproperties.h">
+      <Filter>trueaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\wavpack\wavpackfile.h">
+      <Filter>wavpack</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\wavpack\wavpackproperties.h">
+      <Filter>wavpack</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\xm\xmfile.h">
+      <Filter>xm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\github\black78\taglib\taglib\xm\xmproperties.h">
+      <Filter>xm</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)taglib\audioproperties.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)taglib\config.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)taglib\fileref.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)taglib\tag.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)taglib\taglib_config.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)taglib\taglib_export.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)taglib\tagunion.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)taglib\tagutils.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)taglib\toolkit\tzlib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="C:\dev\github\black78\taglib\taglib\ape\ape-tag-format.txt">
+      <Filter>ape</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\dev\github\black78\taglib\taglib\toolkit\tlist.tcc">
+      <Filter>toolkit</Filter>
+    </None>
+    <None Include="C:\dev\github\black78\taglib\taglib\toolkit\tmap.tcc">
+      <Filter>toolkit</Filter>
+    </None>
+  </ItemGroup>
+</Project>

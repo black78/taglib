@@ -10,7 +10,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "taglib.tests.windows", "tes
 		{0EB70EAC-2CA4-327F-8ED8-11F04BB709E8} = {0EB70EAC-2CA4-327F-8ED8-11F04BB709E8}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "taglib.shared", "taglib.shared.vcxitems", "{311CEC29-D147-43AD-991F-80B977AE78DB}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		taglib.shared.vcxitems*{0eb70eac-2ca4-327f-8ed8-11f04bb709e8}*SharedItemsImports = 4
+		taglib.shared.vcxitems*{311cec29-d147-43ad-991f-80b977ae78db}*SharedItemsImports = 9
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
