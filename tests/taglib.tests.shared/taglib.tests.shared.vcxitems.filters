@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="tests">
+      <UniqueIdentifier>{d19cd438-406d-49a5-b979-1a2afcb7f62c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_aiff.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_ape.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_apetag.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_asf.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_bytevector.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_bytevectorlist.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_bytevectorstream.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_file.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_fileref.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_flac.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_flacpicture.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_flacunknownmetadatablock.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_id3v1.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_id3v2.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_info.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_it.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_list.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_map.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_mod.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_mp4.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_mp4coverart.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_mp4item.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_mpc.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_mpeg.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_ogg.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_oggflac.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_opus.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_propertymap.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_riff.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_s3m.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_speex.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_string.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_synchdata.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_trueaudio.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_wav.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_wavpack.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_xiphcomment.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_xm.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\utils.h" />
+  </ItemGroup>
+</Project>

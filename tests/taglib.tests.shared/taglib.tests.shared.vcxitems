@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{dc6b2dfd-265c-4bec-95f3-91fb7731c37c}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_aiff.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_ape.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_apetag.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_asf.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_bytevector.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_bytevectorlist.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_bytevectorstream.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_file.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_fileref.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_flac.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_flacpicture.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_flacunknownmetadatablock.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_id3v1.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_id3v2.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_info.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_it.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_list.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_map.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_mod.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_mp4.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_mp4coverart.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_mp4item.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_mpc.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_mpeg.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_ogg.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_oggflac.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_opus.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_propertymap.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_riff.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_s3m.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_speex.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_string.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_synchdata.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_trueaudio.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_wav.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_wavpack.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_xiphcomment.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_xm.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\utils.h" />
+  </ItemGroup>
+</Project>

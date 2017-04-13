@@ -61,6 +61,7 @@
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
   <ImportGroup Label="Shared">
+    <Import Project="..\taglib.tests.shared\taglib.tests.shared.vcxitems" Label="Shared" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -160,50 +161,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\utils.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\test_aiff.cpp" />
-    <ClCompile Include="..\test_ape.cpp" />
-    <ClCompile Include="..\test_apetag.cpp" />
-    <ClCompile Include="..\test_asf.cpp" />
-    <ClCompile Include="..\test_bytevector.cpp" />
-    <ClCompile Include="..\test_bytevectorlist.cpp" />
-    <ClCompile Include="..\test_bytevectorstream.cpp" />
-    <ClCompile Include="..\test_file.cpp" />
-    <ClCompile Include="..\test_fileref.cpp" />
-    <ClCompile Include="..\test_flac.cpp" />
-    <ClCompile Include="..\test_flacpicture.cpp" />
-    <ClCompile Include="..\test_flacunknownmetadatablock.cpp" />
-    <ClCompile Include="..\test_id3v1.cpp" />
-    <ClCompile Include="..\test_id3v2.cpp" />
-    <ClCompile Include="..\test_info.cpp" />
-    <ClCompile Include="..\test_it.cpp" />
-    <ClCompile Include="..\test_list.cpp" />
-    <ClCompile Include="..\test_map.cpp" />
-    <ClCompile Include="..\test_mod.cpp" />
-    <ClCompile Include="..\test_mp4.cpp" />
-    <ClCompile Include="..\test_mp4coverart.cpp" />
-    <ClCompile Include="..\test_mp4item.cpp" />
-    <ClCompile Include="..\test_mpc.cpp" />
-    <ClCompile Include="..\test_mpeg.cpp" />
-    <ClCompile Include="..\test_ogg.cpp" />
-    <ClCompile Include="..\test_oggflac.cpp" />
-    <ClCompile Include="..\test_opus.cpp" />
-    <ClCompile Include="..\test_propertymap.cpp" />
-    <ClCompile Include="..\test_riff.cpp" />
-    <ClCompile Include="..\test_s3m.cpp" />
-    <ClCompile Include="..\test_speex.cpp" />
-    <ClCompile Include="..\test_string.cpp" />
-    <ClCompile Include="..\test_synchdata.cpp" />
-    <ClCompile Include="..\test_trueaudio.cpp" />
-    <ClCompile Include="..\test_wav.cpp" />
-    <ClCompile Include="..\test_wavpack.cpp" />
-    <ClCompile Include="..\test_xiphcomment.cpp" />
-    <ClCompile Include="..\test_xm.cpp" />
-    <ClCompile Include="unittest1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

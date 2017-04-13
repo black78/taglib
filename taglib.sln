@@ -12,10 +12,16 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "taglib.tests.windows", "tes
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "taglib.shared", "taglib.shared.vcxitems", "{311CEC29-D147-43AD-991F-80B977AE78DB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "taglib.tests.shared", "tests\taglib.tests.shared\taglib.tests.shared.vcxitems", "{DC6B2DFD-265C-4BEC-95F3-91FB7731C37C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FAD898AA-DED2-447B-9AD8-61BB77B5F8C8}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		taglib.shared.vcxitems*{0eb70eac-2ca4-327f-8ed8-11f04bb709e8}*SharedItemsImports = 4
 		taglib.shared.vcxitems*{311cec29-d147-43ad-991f-80b977ae78db}*SharedItemsImports = 9
+		tests\taglib.tests.shared\taglib.tests.shared.vcxitems*{a5a61702-722c-47e3-a427-5d7ce09548c0}*SharedItemsImports = 4
+		tests\taglib.tests.shared\taglib.tests.shared.vcxitems*{dc6b2dfd-265c-4bec-95f3-91fb7731c37c}*SharedItemsImports = 9
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -43,5 +49,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A5A61702-722C-47E3-A427-5D7CE09548C0} = {FAD898AA-DED2-447B-9AD8-61BB77B5F8C8}
+		{DC6B2DFD-265C-4BEC-95F3-91FB7731C37C} = {FAD898AA-DED2-447B-9AD8-61BB77B5F8C8}
 	EndGlobalSection
 EndGlobal
