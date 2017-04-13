@@ -60,14 +60,22 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">taglib</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">taglib</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">taglib</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">taglib</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>$(SolutionDir)_build\$(ProjectName)\$(Configuration)\$(Platform)</IntDir>
+    <OutDir>$(SolutionDir)_output\$(Configuration)\$(Platform)</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <IntDir>$(SolutionDir)_build\$(ProjectName)\$(Configuration)\$(Platform)</IntDir>
+    <OutDir>$(SolutionDir)_output\$(Configuration)\$(Platform)</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>$(SolutionDir)_build\$(ProjectName)\$(Configuration)\$(Platform)</IntDir>
+    <OutDir>$(SolutionDir)_output\$(Configuration)\$(Platform)</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <IntDir>$(SolutionDir)_build\$(ProjectName)\$(Configuration)\$(Platform)</IntDir>
+    <OutDir>$(SolutionDir)_output\$(Configuration)\$(Platform)</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

@@ -1,4 +1,4 @@
-/***************************************************************************
+﻿/***************************************************************************
     copyright            : (C) 2002 - 2008 by Scott Wheeler
     email                : wheeler@kde.org
  ***************************************************************************/
@@ -28,6 +28,9 @@
 
 #if defined(TAGLIB_STATIC)
 #define TAGLIB_EXPORT
+#ifdef _WIN32
+#pragma comment(lib, "taglib.lib")
+#endif
 #elif (defined(_WIN32) || defined(_WIN64))
 #ifdef MAKE_TAGLIB_LIB
 #define TAGLIB_EXPORT __declspec(dllexport)

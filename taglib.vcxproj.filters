@@ -607,9 +607,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="taglib\CMakeLists.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="taglib\toolkit\tlist.tcc">
       <Filter>toolkit</Filter>
     </None>

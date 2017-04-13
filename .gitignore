@@ -34,17 +34,13 @@ CMakeFiles/
 /examples/tagreader_c
 /examples/tagwriter
 /doc/html
-Debug
-MinSizeRel
-Release
-/taglib/Debug
-/taglib/MinSizeRel
-/taglib/Release
-/taglib/tag.dir/Debug
-/taglib/tag.dir/MinSizeRel
-/taglib/tag.dir/Release
+
 /ALL_BUILD.dir
 /ZERO_CHECK.dir
+
+/_build
+/_output
+
 taglib.xcodeproj
 CMakeScripts
 
