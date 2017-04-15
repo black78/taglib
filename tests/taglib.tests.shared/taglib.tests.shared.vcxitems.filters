@@ -6,120 +6,44 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_aiff.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_ape.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_apetag.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_asf.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_bytevector.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_bytevectorlist.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_bytevectorstream.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_file.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_fileref.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_flac.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_flacpicture.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_flacunknownmetadatablock.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_id3v1.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_id3v2.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_info.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_it.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_list.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_map.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_mod.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_mp4.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_mp4coverart.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_mp4item.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_mpc.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_mpeg.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_ogg.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_oggflac.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_opus.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_propertymap.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_riff.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_s3m.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_speex.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_string.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_synchdata.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_trueaudio.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_wav.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_wavpack.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_xiphcomment.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\dev\github\black78\taglib\tests\taglib.tests.shared\..\test_xm.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_aiff.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_ape.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_apetag.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_asf.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_bytevector.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_bytevectorlist.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_bytevectorstream.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_file.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_fileref.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_flac.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_flacpicture.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_flacunknownmetadatablock.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_id3v1.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_id3v2.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_info.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_it.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_list.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_map.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_mod.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_mp4.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_mp4coverart.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_mp4item.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_mpc.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_mpeg.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_ogg.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_oggflac.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_opus.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_propertymap.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_riff.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_s3m.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_speex.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_string.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_synchdata.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_trueaudio.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_wav.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_wavpack.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_xiphcomment.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\test_xm.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)..\utils.h" />
