@@ -42,7 +42,7 @@ namespace winrt
       }
 
       auto data = Read(bufferSize).get();
-      auto dataLength = data.Length();
+      auto dataLength = min(data.Length(), bufferSize);
 
       byte* pData = nullptr;
       com_ptr<com::IBufferByteAccess> byteAccess = data.as<com::IBufferByteAccess>();
@@ -59,12 +59,9 @@ namespace winrt
         return 0;
       }
 
-      Buffer dataBuffer(bufferSize);
-      byte* pData = nullptr;
-
-      com_ptr<com::IBufferByteAccess> byteAccess = dataBuffer.as<com::IBufferByteAccess>();
-      byteAccess->Buffer(&pData);
-      memcpy_s(pData, bufferSize, buffer, bufferSize);
+      DataWriter writer;
+      writer.WriteBytes(winrt::array_view<const uint8_t>(buffer, buffer + bufferSize));
+      auto dataBuffer = writer.DetachBuffer();
 
       auto dataLength = Write(dataBuffer.as<IBuffer>()).get();
       return dataLength;
@@ -73,6 +70,11 @@ namespace winrt
     uint64_t GetLength()
     {
       return _stream.Size();
+    }
+
+    void SetLength(uint64_t value)
+    {
+      _stream.Size(value);
     }
 
     uint64_t GetPosition()
@@ -201,42 +203,54 @@ DWORD SetFilePointer(
   DWORD dwMoveMethod
 )
 {
-  long long offsetValue = 0;
+  ::SetLastError(NO_ERROR);
+
+  long long pos = 0;
   if (lpDistanceToMoveHigh != nullptr) 
   {
     LARGE_INTEGER fullOffset;
     fullOffset.LowPart = lDistanceToMove;
     fullOffset.HighPart = (*lpDistanceToMoveHigh);
-    offsetValue = fullOffset.QuadPart;
+    pos = fullOffset.QuadPart;
   }
   else 
   {
-    offsetValue = lDistanceToMove;
+    pos = lDistanceToMove;
   }
 
   if (file)
   {
-    uint64_t position = file->GetLength();
+    long long length = file->GetLength();
+    long long position = file->GetPosition();
+
     switch (dwMoveMethod)
     {
     case FILE_BEGIN:
       {
-        position = offsetValue;
+        pos = pos;
       }break;
     case FILE_CURRENT:
       {
-        position += offsetValue;
+        pos = position + pos;
       }break;
     case FILE_END:
       {
-        position += offsetValue;
+        pos = length + pos;
       }break;
     default:
       break;
     }
 
+    if (pos < 0)
+    {
+      ::SetLastError(ERROR_NEGATIVE_SEEK);
+      return INVALID_SET_FILE_POINTER;
+    }
+
+    file->SetPosition(pos);
+
     ULARGE_INTEGER newPosition;
-    newPosition.QuadPart = file->GetLength();
+    newPosition.QuadPart = file->GetPosition();
     if (lpDistanceToMoveHigh != nullptr)
     {
       (*lpDistanceToMoveHigh) = newPosition.HighPart;
@@ -303,5 +317,10 @@ BOOL SetEndOfFile(
   winrt::FileHandlePtr file
 )
 {
+  if (file) 
+  {
+    file->SetLength((uint64_t)file->GetPosition());
+    return TRUE;
+  }
   return FALSE;
 }

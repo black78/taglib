@@ -43,9 +43,73 @@
 
 using namespace std;
 
+#ifdef _WIN32
+#ifdef TAGLIB_UWP
+
+#include <ppl.h>
+#include <pplawait.h>
+
+#include <winrt\base.h>
+#include <winrt\ppl.h>
+#include <winrt\Windows.Storage.h>
+#include <winrt\Windows.Storage.Streams.h>
+
+#define BaseTestsDataUrl L"ms-appx:///"
+
+inline concurrency::task<string> testFilePathAsync(const string &filename)
+{
+  std::wstring relativeFilePath;
+  std::wstring wFileName(filename.begin(), filename.end());
+  relativeFilePath = BaseTestsDataUrl + wFileName;
+  auto srcFile = co_await winrt::Windows::Storage::StorageFile::GetFileFromApplicationUriAsync(winrt::Windows::Foundation::Uri(relativeFilePath));
+  wstring wPath = srcFile.Path();
+  return string(wPath.begin(), wPath.end());
+}
+
+inline concurrency::task<string> copyFileAsync(const string &filename, const string &ext) 
+{
+  try 
+  {
+    std::wstring relativeFilePath;
+    std::wstring wFileName(filename.begin(), filename.end());
+    std::wstring wExt(ext.begin(), ext.end());
+    wFileName += wExt;
+
+    auto tempFolder = winrt::Windows::Storage::ApplicationData::Current().TemporaryFolder();
+
+    relativeFilePath = BaseTestsDataUrl + wFileName;
+    auto srcFile = co_await winrt::Windows::Storage::StorageFile::GetFileFromApplicationUriAsync(winrt::Windows::Foundation::Uri(relativeFilePath));
+    auto targetFile = co_await tempFolder.CreateFileAsync(wFileName, winrt::Windows::Storage::CreationCollisionOption::GenerateUniqueName);
+    srcFile.CopyAndReplaceAsync(targetFile);
+
+    wstring wTargetFileName = targetFile.Path();
+    return string(wTargetFileName.begin(), wTargetFileName.end());
+  }
+  catch (winrt::hresult_error err)
+  {
+    wstring message = err.message();
+    auto hresult = err.code();
+    throw;
+  }
+}
+
+inline concurrency::task<void> deleteFileAsync(const string &filename)
+{
+  std::wstring wFileName(filename.begin(), filename.end());
+  auto file = co_await winrt::Windows::Storage::StorageFile::GetFileFromPathAsync(wFileName);
+  co_await file.DeleteAsync();
+}
+
+#endif
+#endif
+
 inline string testFilePath(const string &filename)
 {
+#ifdef TAGLIB_UWP
+  return testFilePathAsync(filename).get();
+#else
   return string(TESTS_DIR "data/") + filename;
+#endif
 }
 
 #define TEST_FILE_PATH_C(f) testFilePath(f).c_str()
@@ -56,6 +120,7 @@ inline string copyFile(const string &filename, const string &ext)
 
 #ifdef _WIN32
 #ifdef TAGLIB_UWP
+  return copyFileAsync(filename, ext).get();
 #else
   char tempDir[MAX_PATH + 1];
   GetTempPathA(sizeof(tempDir), tempDir);
@@ -74,7 +139,11 @@ inline string copyFile(const string &filename, const string &ext)
 
 inline void deleteFile(const string &filename)
 {
+#ifdef TAGLIB_UWP
+  deleteFileAsync(filename).get();
+#else
   remove(filename.c_str());
+#endif
 }
 
 inline bool fileEqual(const string &filename1, const string &filename2)
