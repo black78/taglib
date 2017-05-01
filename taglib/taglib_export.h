@@ -29,7 +29,11 @@
 #if defined(TAGLIB_STATIC)
 #define TAGLIB_EXPORT
 #ifdef _WIN32
+#ifdef TAGLIB_UWP
+#pragma comment(lib, "taglib.uwp.lib")
+#else
 #pragma comment(lib, "taglib.lib")
+#endif
 #endif
 #elif (defined(_WIN32) || defined(_WIN64))
 #ifdef MAKE_TAGLIB_LIB

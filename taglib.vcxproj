@@ -105,36 +105,36 @@
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IntDir>$(SolutionDir)_build\$(ProjectName)\$(Configuration)\$(Platform)</IntDir>
-    <OutDir>$(SolutionDir)_output\$(Configuration)\$(Platform)</OutDir>
+    <IntDir>$(SolutionDir)_build\$(ProjectName)\$(Configuration)\$(Platform)\</IntDir>
+    <OutDir>$(SolutionDir)_output\$(Configuration)\$(Platform)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IntDir>$(SolutionDir)_build\$(ProjectName)\$(Configuration)\$(Platform)</IntDir>
-    <OutDir>$(SolutionDir)_output\$(Configuration)\$(Platform)</OutDir>
+    <IntDir>$(SolutionDir)_build\$(ProjectName)\$(Configuration)\$(Platform)\</IntDir>
+    <OutDir>$(SolutionDir)_output\$(Configuration)\$(Platform)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
-    <IntDir>$(SolutionDir)_build\$(ProjectName)\$(Configuration)\$(Platform)</IntDir>
-    <OutDir>$(SolutionDir)_output\$(Configuration)\$(Platform)</OutDir>
+    <IntDir>$(SolutionDir)_build\$(ProjectName)\$(Configuration)\$(Platform)\</IntDir>
+    <OutDir>$(SolutionDir)_output\$(Configuration)\$(Platform)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
-    <IntDir>$(SolutionDir)_build\$(ProjectName)\$(Configuration)\$(Platform)</IntDir>
-    <OutDir>$(SolutionDir)_output\$(Configuration)\$(Platform)</OutDir>
+    <IntDir>$(SolutionDir)_build\$(ProjectName)\$(Configuration)\$(Platform)\</IntDir>
+    <OutDir>$(SolutionDir)_output\$(Configuration)\$(Platform)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IntDir>$(SolutionDir)_build\$(ProjectName)\$(Configuration)\$(Platform)</IntDir>
-    <OutDir>$(SolutionDir)_output\$(Configuration)\$(Platform)</OutDir>
+    <IntDir>$(SolutionDir)_build\$(ProjectName)\$(Configuration)\$(Platform)\</IntDir>
+    <OutDir>$(SolutionDir)_output\$(Configuration)\$(Platform)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IntDir>$(SolutionDir)_build\$(ProjectName)\$(Configuration)\$(Platform)</IntDir>
-    <OutDir>$(SolutionDir)_output\$(Configuration)\$(Platform)</OutDir>
+    <IntDir>$(SolutionDir)_build\$(ProjectName)\$(Configuration)\$(Platform)\</IntDir>
+    <OutDir>$(SolutionDir)_output\$(Configuration)\$(Platform)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
-    <IntDir>$(SolutionDir)_build\$(ProjectName)\$(Configuration)\$(Platform)</IntDir>
-    <OutDir>$(SolutionDir)_output\$(Configuration)\$(Platform)</OutDir>
+    <IntDir>$(SolutionDir)_build\$(ProjectName)\$(Configuration)\$(Platform)\</IntDir>
+    <OutDir>$(SolutionDir)_output\$(Configuration)\$(Platform)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
-    <IntDir>$(SolutionDir)_build\$(ProjectName)\$(Configuration)\$(Platform)</IntDir>
-    <OutDir>$(SolutionDir)_output\$(Configuration)\$(Platform)</OutDir>
+    <IntDir>$(SolutionDir)_build\$(ProjectName)\$(Configuration)\$(Platform)\</IntDir>
+    <OutDir>$(SolutionDir)_output\$(Configuration)\$(Platform)\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

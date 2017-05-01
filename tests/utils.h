@@ -1,4 +1,4 @@
-/***************************************************************************
+﻿/***************************************************************************
     copyright           : (C) 2007 by Lukas Lalinsky
     email               : lukas@oxygene.sk
  ***************************************************************************/
@@ -55,9 +55,12 @@ inline string copyFile(const string &filename, const string &ext)
   char testFileName[1024];
 
 #ifdef _WIN32
+#ifdef TAGLIB_UWP
+#else
   char tempDir[MAX_PATH + 1];
   GetTempPathA(sizeof(tempDir), tempDir);
   wsprintfA(testFileName, "%s\\taglib-test%s", tempDir, ext.c_str());
+#endif
 #else
   snprintf(testFileName, sizeof(testFileName), "/%s/taglib-test%s", P_tmpdir, ext.c_str());
 #endif
