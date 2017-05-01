@@ -1,4 +1,4 @@
-/***************************************************************************
+﻿/***************************************************************************
     copyright            : (C) 2002 - 2008 by Scott Wheeler
     email                : wheeler@kde.org
  ***************************************************************************/
@@ -28,7 +28,12 @@
 #include "tdebug.h"
 
 #ifdef _WIN32
-# include <windows.h>
+#include <windows.h>
+
+#ifdef TAGLIB_UWP
+#include "WinrtFile.h"
+#endif // TAGLIB_UWP
+
 #else
 # include <stdio.h>
 # include <unistd.h>
@@ -43,9 +48,14 @@ namespace
   // Uses Win32 native API instead of POSIX API to reduce the resource consumption.
 
   typedef FileName FileNameHandle;
-  typedef HANDLE FileHandle;
 
+#ifdef TAGLIB_UWP
+  typedef winrt::FileHandlePtr FileHandle;
+  const FileHandle InvalidFileHandle = winrt::FileHandlePtr();
+#else
+  typedef HANDLE FileHandle;
   const FileHandle InvalidFileHandle = INVALID_HANDLE_VALUE;
+#endif // TAGLIB_UWP
 
   FileHandle openFile(const FileName &path, bool readOnly)
   {
@@ -445,6 +455,7 @@ long FileStream::length()
     debug("FileStream::length() -- Failed to get the file size.");
     return 0;
   }
+  return 0;
 
 #else
 

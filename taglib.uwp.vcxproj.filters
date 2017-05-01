@@ -10,9 +10,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="WinrtFile.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="WinrtFile.cpp" />
+    <ClInclude Include="config.h" />
   </ItemGroup>
 </Project>
