@@ -106,27 +106,27 @@
     <PackageCertificateKeyFile>taglib.tests.uwp_TemporaryKey.pfx</PackageCertificateKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
-    <OutDir>$(SolutionDir)_output\$(Configuration)\$(Platform)\</OutDir>
+    <OutDir>$(SolutionDir)_output\uwp\$(Configuration)\$(Platform)\</OutDir>
     <IntDir>$(SolutionDir)_build\$(ProjectName)\$(Configuration)\$(Platform)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
-    <OutDir>$(SolutionDir)_output\$(Configuration)\$(Platform)\</OutDir>
+    <OutDir>$(SolutionDir)_output\uwp\$(Configuration)\$(Platform)\</OutDir>
     <IntDir>$(SolutionDir)_build\$(ProjectName)\$(Configuration)\$(Platform)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(SolutionDir)_output\$(Configuration)\$(Platform)\</OutDir>
+    <OutDir>$(SolutionDir)_output\uwp\$(Configuration)\$(Platform)\</OutDir>
     <IntDir>$(SolutionDir)_build\$(ProjectName)\$(Configuration)\$(Platform)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>$(SolutionDir)_output\$(Configuration)\$(Platform)\</OutDir>
+    <OutDir>$(SolutionDir)_output\uwp\$(Configuration)\$(Platform)\</OutDir>
     <IntDir>$(SolutionDir)_build\$(ProjectName)\$(Configuration)\$(Platform)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>$(SolutionDir)_output\$(Configuration)\$(Platform)\</OutDir>
+    <OutDir>$(SolutionDir)_output\uwp\$(Configuration)\$(Platform)\</OutDir>
     <IntDir>$(SolutionDir)_build\$(ProjectName)\$(Configuration)\$(Platform)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>$(SolutionDir)_output\$(Configuration)\$(Platform)\</OutDir>
+    <OutDir>$(SolutionDir)_output\uwp\$(Configuration)\$(Platform)\</OutDir>
     <IntDir>$(SolutionDir)_build\$(ProjectName)\$(Configuration)\$(Platform)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">

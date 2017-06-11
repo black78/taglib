@@ -161,8 +161,292 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="config.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\data\64bit.mp4">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\alaw.wav">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\ape-id3v1.mp3">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\ape-id3v2.mp3">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\ape.mp3">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\bladeenc.mp3">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\compressed_id3_frame.mp3">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\duplicate_id3v2.mp3">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\duplicate_tags.wav">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\empty.wav">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\excessive_alloc.mp3">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\float64.wav">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\id3v22-tda.mp3">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\infloop.wav">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\invalid-frames1.mp3">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\invalid-frames2.mp3">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\invalid-frames3.mp3">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\lame_cbr.mp3">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\lame_vbr.mp3">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\mpeg2.mp3">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\pcm_with_fact_chunk.wav">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\rare_frames.mp3">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\segfault.wav">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\toc_many_children.mp3">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\vbri.mp3">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\w000.mp3">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\xing.mp3">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+    <Media Include="..\data\zero-size-chunk.wav">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\data\005411.id3">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\alaw.aifc">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\blank_video.m4v">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\broken-tenc.id3">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\changed.mod">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\changed.s3m">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\changed.xm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\click.mpc">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\click.wv">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\correctness_gain_silent_output.opus">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\covr-junk.m4a">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\duplicate_id3v2.aiff">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\empty.aiff">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\empty.ogg">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\empty.spx">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\empty.tta">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\empty_alac.m4a">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\empty_flac.oga">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\empty_vorbis.oga">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\excessive_alloc.aif">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\four_channels.wv">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\gnre.m4a">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\has-tags.m4a">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\ilst-is-last.m4a">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\infloop.m4a">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\infloop.mpc">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\infloop.wv">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\longloop.ape">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\lossless.wma">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\mac-390-hdr.ape">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\mac-396.ape">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\mac-399-id3v2.ape">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\mac-399-tagged.ape">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\mac-399.ape">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\multiple-vc.flac">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\no-extension">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\no-tags.3g2">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\no-tags.flac">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\no-tags.m4a">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\noise.aif">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\noise_odd.aif">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\no_length.wv">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\segfault.aif">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\segfault.mpc">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\segfault.oga">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\segfault2.mpc">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\silence-1.wma">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\silence-44-s.flac">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\sinewave.flac">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\stripped.xm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\sv4_header.mpc">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\sv5_header.mpc">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\sv8_header.mpc">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\tagged.tta">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\tagged.wv">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\test.it">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\test.mod">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\test.ogg">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\test.s3m">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\test.xm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\unsupported-extension.xxx">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\unsynch.id3">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\zero-sized-padding.flac">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\zerodiv.ape">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\zerodiv.mpc">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{1c86cb6f-8ad4-4b8e-9607-0dd7958fd528}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -21,5 +24,291 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\data\64bit.mp4">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\alaw.wav">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\ape.mp3">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\ape-id3v1.mp3">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\ape-id3v2.mp3">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\bladeenc.mp3">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\compressed_id3_frame.mp3">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\duplicate_id3v2.mp3">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\duplicate_tags.wav">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\empty.wav">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\excessive_alloc.mp3">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\float64.wav">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\id3v22-tda.mp3">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\infloop.wav">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\invalid-frames1.mp3">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\invalid-frames2.mp3">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\invalid-frames3.mp3">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\lame_cbr.mp3">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\lame_vbr.mp3">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\mpeg2.mp3">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\pcm_with_fact_chunk.wav">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\rare_frames.mp3">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\segfault.wav">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\toc_many_children.mp3">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\vbri.mp3">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\w000.mp3">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\xing.mp3">
+      <Filter>data</Filter>
+    </Media>
+    <Media Include="..\data\zero-size-chunk.wav">
+      <Filter>data</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\data\005411.id3">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\alaw.aifc">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\blank_video.m4v">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\broken-tenc.id3">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\changed.mod">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\changed.s3m">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\changed.xm">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\click.mpc">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\click.wv">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\correctness_gain_silent_output.opus">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\covr-junk.m4a">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\duplicate_id3v2.aiff">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\empty.aiff">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\empty.ogg">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\empty.spx">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\empty.tta">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\empty_alac.m4a">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\empty_flac.oga">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\empty_vorbis.oga">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\excessive_alloc.aif">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\four_channels.wv">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\gnre.m4a">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\has-tags.m4a">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\ilst-is-last.m4a">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\infloop.m4a">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\infloop.mpc">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\infloop.wv">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\longloop.ape">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\lossless.wma">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\mac-390-hdr.ape">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\mac-396.ape">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\mac-399.ape">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\mac-399-id3v2.ape">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\mac-399-tagged.ape">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\multiple-vc.flac">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\no_length.wv">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\no-extension">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\noise.aif">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\noise_odd.aif">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\no-tags.3g2">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\no-tags.flac">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\no-tags.m4a">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\segfault.aif">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\segfault.mpc">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\segfault.oga">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\segfault2.mpc">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\silence-1.wma">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\silence-44-s.flac">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\sinewave.flac">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\stripped.xm">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\sv4_header.mpc">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\sv5_header.mpc">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\sv8_header.mpc">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\tagged.tta">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\tagged.wv">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\test.it">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\test.mod">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\test.ogg">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\test.s3m">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\test.xm">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\unsupported-extension.xxx">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\unsynch.id3">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\zerodiv.ape">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\zerodiv.mpc">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\data\zero-sized-padding.flac">
+      <Filter>data</Filter>
+    </None>
   </ItemGroup>
 </Project>
