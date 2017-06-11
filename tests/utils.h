@@ -80,7 +80,7 @@ inline concurrency::task<string> copyFileAsync(const string &filename, const str
     relativeFilePath = BaseTestsDataUrl + wFileName;
     auto srcFile = co_await winrt::Windows::Storage::StorageFile::GetFileFromApplicationUriAsync(winrt::Windows::Foundation::Uri(relativeFilePath));
     auto targetFile = co_await tempFolder.CreateFileAsync(wFileName, winrt::Windows::Storage::CreationCollisionOption::GenerateUniqueName);
-    srcFile.CopyAndReplaceAsync(targetFile);
+    co_await srcFile.CopyAndReplaceAsync(targetFile);
 
     wstring wTargetFileName = targetFile.Path();
     return string(wTargetFileName.begin(), wTargetFileName.end());

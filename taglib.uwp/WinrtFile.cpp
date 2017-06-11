@@ -22,6 +22,50 @@ using namespace winrt::Windows::Storage::Streams;
 
 namespace winrt
 {
+  // com::IBufferByteAccess
+
+  struct CustomBuffer 
+    : implements<CustomBuffer, IBuffer, com::IBufferByteAccess>
+  {
+    uint8_t* m_buffer;
+    uint32_t m_length;
+
+    CustomBuffer(uint8_t* lpBuffer, uint32_t size)
+      : m_buffer(lpBuffer)
+      , m_length(size)
+    {
+    }
+
+    uint32_t Capacity() const
+    {
+      return m_length;
+    }
+
+    uint32_t Length() const
+    {
+      return m_length;
+    }
+
+    void Length(uint32_t value)
+    {
+      if (value > m_length)
+      {
+        throw hresult_invalid_argument();
+      }
+
+      m_length = value;
+    }
+
+    HRESULT __stdcall Buffer(uint8_t** value) final
+    {
+      *value = m_buffer;
+      return S_OK;
+    }
+  };
+
+
+  /////////////////////////
+
   class FileHandle
   {
   public:
@@ -41,15 +85,11 @@ namespace winrt
         return 0;
       }
 
-      auto data = Read(bufferSize).get();
+      IBuffer data = make<CustomBuffer>(buffer, bufferSize);
+      data = Read(data).get();
       auto dataLength = min(data.Length(), bufferSize);
 
-      byte* pData = nullptr;
-      com_ptr<com::IBufferByteAccess> byteAccess = data.as<com::IBufferByteAccess>();
-      byteAccess->Buffer(&pData);
-      memcpy_s(buffer, bufferSize, pData, dataLength);
-
-      return dataLength;
+      return data.Length();
     }
 
     size_t Write(byte* buffer, size_t bufferSize)
@@ -59,11 +99,8 @@ namespace winrt
         return 0;
       }
 
-      DataWriter writer;
-      writer.WriteBytes(winrt::array_view<const uint8_t>(buffer, buffer + bufferSize));
-      auto dataBuffer = writer.DetachBuffer();
-
-      auto dataLength = Write(dataBuffer.as<IBuffer>()).get();
+      IBuffer data = make<CustomBuffer>(buffer, bufferSize);
+      auto dataLength = Write(data).get();
       return dataLength;
     }
 
@@ -93,6 +130,12 @@ namespace winrt
       Buffer buffer(bufferSize);
       co_await _stream.ReadAsync(buffer, bufferSize, InputStreamOptions::None);
       return buffer.as<IBuffer>();
+    }
+
+    concurrency::task<IBuffer> Read(IBuffer buffer)
+    {
+      co_await _stream.ReadAsync(buffer, buffer.Capacity(), InputStreamOptions::None);
+      return buffer;
     }
 
     concurrency::task<uint32_t> Write(IBuffer buffer)
